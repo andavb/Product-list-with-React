@@ -1,0 +1,38 @@
+[
+  {
+    "id": 209126,
+    "title": "Slušalke",
+    "price": 45.22,
+    "currency": "€",
+    "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+    "image": "headphones.jpeg",
+    "rating": 4.6
+  },
+  {
+    "id": 209125,
+    "title": "Slušalke",
+    "price": 45.22,
+    "currency": "€",
+    "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+    "image": "headphones.jpeg",
+    "rating": 4.6
+  },
+  {
+    "id": 209122,
+    "title": "Slušalke",
+    "price": 45.22,
+    "currency": "€",
+    "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+    "image": "headphones.jpeg",
+    "rating": 4.6
+  },
+  {
+    "id": 209121,
+    "title": "Slušalke",
+    "price": 45.22,
+    "currency": "€",
+    "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+    "image": "headphones.jpeg",
+    "rating": 4.6
+  }
+]

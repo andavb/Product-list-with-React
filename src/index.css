@@ -1,0 +1,10 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body,
+#root,
+.container,
+.center-page {
+  height: 100%;
+}

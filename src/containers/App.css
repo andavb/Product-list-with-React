@@ -1,0 +1,103 @@
+nav {
+  margin: 0px;
+}
+
+.carousel-slider {
+  margin-top: 120px;
+}
+
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-page {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.products-list {
+  align-items: center;
+  justify-content: center;
+}
+
+.products-header {
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+}
+
+.product-overview {
+  margin: 0 0.5vw;
+}
+
+.product-price {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.product-time-preparation {
+  display: inline-flex;
+  align-items: center;
+}
+
+.product-rating {
+  display: inline-flex;
+  float: right;
+}
+
+.card {
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.product-img-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.similar-products-container {
+  margin-top: 4vw;
+}
+
+.select {
+  max-width: 200px;
+  height: max-content;
+  top: 4px;
+  position: relative;
+}
+
+.search {
+  max-width: 300px;
+  margin-left: 0px;
+}
+
+.products-filter {
+  display: flex;
+}
+
+.select-sort {
+  max-width: 200px;
+}
+
+.card {
+  max-width: none;
+}
+
+.not-found {
+  margin-top: 140px;
+}
+
+@media screen and (min-width: 320px) {
+  .card {
+    width: auto;
+  }
+}
