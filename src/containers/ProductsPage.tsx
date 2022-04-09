@@ -8,6 +8,7 @@ import { productsAPI } from '../API/productsAPI';
 import { Filter } from '../interfaces/Filter';
 import types from '../interfaces/Type';
 import InfiniteScroll from 'react-infinite-scroller';
+import { Alert } from 'react-bootstrap';
 
 function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -79,16 +80,10 @@ function ProductsPage() {
             <div className="products-header">
               <h1>Products</h1>
               {error && (
-                <div className="row">
-                  <div className="card large error">
-                    <section>
-                      <p>
-                        <span className="icon-alert inverse "></span>
-                        {error}
-                      </p>
-                    </section>
-                  </div>
-                </div>
+                <Alert variant="danger">
+                  <Alert.Heading>Error!</Alert.Heading>
+                  <p>{error}</p>
+                </Alert>
               )}
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-10">
